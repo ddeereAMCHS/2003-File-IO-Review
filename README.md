@@ -1,6 +1,6 @@
 # File I/O Review
 
-## Due: DoW MM/DD at 11:59 PM
+## Due: Mon 8/29 at 11:59 PM
 
 - Create a program called `FileReview.java`
 - Prompt the user for a filename
