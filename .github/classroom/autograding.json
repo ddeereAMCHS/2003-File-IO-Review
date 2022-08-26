@@ -13,7 +13,7 @@
     {
       "name": "input2.txt",
       "setup": "javac FileReview.java",
-      "run": "jjava FileReview && test -f \"output.txt\" && cat output.txt || echo \"File output.txt not found.\"",
+      "run": "java FileReview && test -f \"output.txt\" && cat output.txt || echo \"File output.txt not found.\"",
       "input": "input2.txt",
       "output": "Mean: 84.353\r\nMedian: 85.0\r\nMax: 100\r\nMin: 61",
       "comparison": "included",
