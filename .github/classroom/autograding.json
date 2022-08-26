@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "input1.txt",
+      "setup": "javac FileReview.java",
+      "run": "java FileReview && cat output.txt",
+      "input": "input.txt",
+      "output": "Mean: 83.000\r\nMedian: 84.5\r\nMax: 98\r\nMin: 60",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "input2.txt",
+      "setup": "javac FileReview.java",
+      "run": "java FileReview && cat output.txt",
+      "input": "input2.txt",
+      "output": "Mean: 84.353\r\nMedian: 85.0\r\nMax: 100\r\nMin: 61",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
