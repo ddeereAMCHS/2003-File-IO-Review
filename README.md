@@ -2,6 +2,8 @@
 
 ## Due: Mon 8/29 at 11:59 PM
 
+## !!TODO: Fix test cases (switch to regex instead of included)
+
 - Create a program called `FileReview.java`
 - Prompt the user for a filename
 - Read in all the values in the file
