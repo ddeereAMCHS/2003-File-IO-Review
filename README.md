@@ -1,8 +1,6 @@
 # File I/O Review
 
-## Due: Mon 8/29 at 11:59 PM
-
-## !!TODO: Fix test cases (switch to regex instead of included)
+## Due: Mon 8/28 at 11:59 PM
 
 - Create a program called `FileReview.java`
 - Prompt the user for a filename
