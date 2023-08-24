@@ -3,9 +3,9 @@
     {
       "name": "input1.txt",
       "setup": "javac FileReview.java",
-      "run": "java FileReview && test -f \"output.txt\" && cat output.txt || echo \"File output.txt not found.\"",
+      "run": "java FileReview && echo \"Displaying contents of file\" && cat output.txt",
       "input": "input.txt",
-      "output": "Mean: 83.000\r\nMedian: 84.5\r\nMax: 98\r\nMin: 60",
+      "output": "Displaying contents of file\r\nMean: 83.000\r\nMedian: 84.5\r\nMax: 98\r\nMin: 60",
       "comparison": "included",
       "timeout": 2,
       "points": null
@@ -13,9 +13,9 @@
     {
       "name": "input2.txt",
       "setup": "javac FileReview.java",
-      "run": "java FileReview && test -f \"output.txt\" && cat output.txt || echo \"File output.txt not found.\"",
+      "run": "java FileReview && echo \"Displaying contents of file\" && cat output.txt",
       "input": "input2.txt",
-      "output": "Mean: 84.353\r\nMedian: 85.0\r\nMax: 100\r\nMin: 61",
+      "output": "Displaying contents of file\r\nMean: 84.353\r\nMedian: 85.0\r\nMax: 100\r\nMin: 61",
       "comparison": "included",
       "timeout": 2,
       "points": null
